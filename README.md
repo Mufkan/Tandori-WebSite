@@ -5,7 +5,9 @@
 
 
 TASARIMCI: Lorenzo
+
 Web Sayfası: https://www.lorenzoperniciaro.com/
+
 İnstagram Adresi:https://www.instagram.com/ui.lorenzo
 
 
