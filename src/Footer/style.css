@@ -1,0 +1,152 @@
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-right: 20px;
+    color: var(--palette-main-tandori, #F56B2B);
+    font-family: Bueno;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 114px;
+
+
+}
+
+/* Add the following styles to position the .footer-union behind .footer-logo */
+.footer .row {
+    position: relative;
+}
+
+.footer .row .col-sm-3:first-child {
+    z-index: 2;
+    /* Bring .footer-logo to the front */
+}
+
+.footer .row .col-sm-4:last-child {
+    position: absolute;
+    top: 0;
+    left: 88%;
+    z-index: 1;
+    /* Position .footer-union behind .footer-logo */
+}
+
+.footer-union {
+    height: auto;
+    width: auto;
+
+}
+
+
+
+.row .col-sm-2 {
+    width: auto;
+    height: auto;
+    padding-left:4.7px;
+}
+.row .col-sm-12 {
+    width: auto;
+    height: auto;
+    padding-left:4.7px;
+}
+.row .col-sm-13 {
+    width: auto;
+    height: auto;
+    padding-left:140px;
+}
+
+.row .col-sm-6 {
+    width: 160px;
+    height: 16px;
+   
+
+}
+@media (max-width: 1350px) {
+    .footer{
+        top: 5350px !important;
+    }
+}
+
+.row .col-lg-3 {
+    width: 160px;
+    height: 16px;
+    margin-left: 0px;
+
+}
+
+.footer-bottom {
+    margin-left: 100px;
+}
+
+
+
+
+.footer-botside {
+  
+    color: var(--palette-main-black, #000);
+    font-family: Geliat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.footer {
+    height: 450px;
+    left: 0;
+    position: relative;
+    top: 5023px;
+    width: 100%;
+}
+
+
+.background {
+    background-color: var(--palette-accent-skin, #F5F3EF);
+
+}
+
+@media (min-width: 1340px) {
+    .row .col-sm-12 {
+      width: auto;
+      height: auto;
+      padding-left: 4.7px;
+      margin-left: 120px; 
+    }
+    .row .col-sm-13 {
+      width: auto;
+      height: auto;
+      padding-left: 700px; 
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1340px){
+    .row .col-sm-13 {
+        width: auto;
+        height: auto;
+        padding-left: 300px; 
+      }
+    .row .col-sm-12 {
+        width: auto;
+        height: auto;
+        padding-left: 4.7px;
+        margin-left: 120px; 
+      }  
+}
+@media screen and (min-width: 755px) and (max-width: 1023px){
+    .row .col-sm-13 {
+        width: auto;
+        height: auto;
+        padding-left: 90px; 
+      }
+    .row .col-sm-12 {
+        width: auto;
+        height: auto;
+        padding-left: 4.7px;
+        margin-left: 120px; 
+      }  
+}

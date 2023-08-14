@@ -1,0 +1,115 @@
+.tandori-homepage .newsletter {
+    top: 3985px;
+    position: relative;
+    text-align: center;
+}
+
+.tandori-homepage .overlap-group-2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.tandori-homepage .product-image-2,
+.tandori-homepage .product-image-3,
+.tandori-homepage .product-image-4 {
+    height: 590px;
+    object-fit: cover;
+    width: calc(33.33%);
+
+}
+
+
+.tandori-homepage .union {
+    height: 360px;
+    width: 360px;
+    position: absolute;
+    top: 121px;
+    left: calc(50% - 430px);
+    transition: left 0.3s ease;
+}
+
+.tandori-homepage .SIGN-IN-TO-OUR {
+    color: var(--paletteaccentred);
+    font-family: "Bagor-Normal", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 265px;
+    left: calc(50% - 320px);
+    transition: left 0.3s ease;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+
+    .tandori-homepage .product-image-2,
+    .tandori-homepage .product-image-3,
+    .tandori-homepage .product-image-4 {
+        width: 50%;
+    }
+
+
+}
+
+@media (max-width: 1439px) {
+
+    .tandori-homepage .product-image-4 {
+        display: none;
+    }
+}
+@media (max-width: 1350px) {
+
+    .tandori-homepage .newsletter {
+        margin-top: 350px;
+        
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .union {
+        left: calc(50% - 430px + 250px) !important;
+    }
+
+    .SIGN-IN-TO-OUR {
+        left: calc(50% - 430px + 360px) !important;
+    }
+}
+
+@media (max-width: 535px) {
+
+    .tandori-homepage .product-image-3 {
+        display: none;
+    }
+
+    .tandori-homepage .product-image-2 {
+        width: 100%;
+        /* Resmin tam genişlikte görünmesini sağlar */
+        margin: 0;
+        /* Margin'leri sıfırlar */
+        padding: 0;
+        /* Padding'i sıfırlar */
+
+    }
+
+    .union {
+        left: calc(50% - 430px + 250px) !important;
+    }
+
+    .SIGN-IN-TO-OUR {
+        left: calc(50% - 430px + 360px) !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .tandori-homepage .product-image-2,
+    .tandori-homepage .product-image-3 {
+        width: 50%;
+    }
+}

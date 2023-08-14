@@ -1,0 +1,1 @@
+export { TandoriHomepage } from "./TandoriHomepage";

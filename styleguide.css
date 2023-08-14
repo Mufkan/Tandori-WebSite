@@ -1,0 +1,11 @@
+:root {
+  --paletteaccentforest: rgba(34, 67, 26, 1);
+  --paletteaccentred: rgba(252, 84, 47, 1);
+  --paletteaccentsand: rgba(234, 231, 214, 1);
+  --paletteaccentskin: rgba(245, 243, 239, 1);
+  --paletteblack: rgba(0, 0, 0, 1);
+  --palettegreysgrey-white: rgba(221, 221, 221, 1);
+  --palettemainblack: rgba(0, 0, 0, 1);
+  --palettemaintandori: rgba(245, 107, 43, 1);
+  --palettemainwhite: rgba(255, 255, 255, 1);
+}

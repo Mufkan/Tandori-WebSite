@@ -1,0 +1,208 @@
+.tandori-homepage .text-wrapper {
+    color: var(--palettemainblack);
+    font-family: "Geliat-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.tandori-homepage .text-wrapper-2 {
+    color: var(--palettemaintandori);
+    font-family: "SunnyCatalina-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.tandori-homepage .overlap-group {
+    left: -780px;
+    top: 2543px;
+    
+    height: auto;
+}
+
+.tandori-homepage .overlap-2 {
+
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; 
+   align-items: center;
+   flex-wrap: wrap;
+   height: auto;
+
+}
+
+.tandori-homepage .h-1 {
+    color: var(--paletteaccentsand);
+    font-family: "Bagor-Normal", Helvetica;
+    font-size: 170px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 170px;
+    position: relative;
+    top: 0;
+    white-space: nowrap;
+}
+
+.tandori-homepage .product-big {
+    align-items: flex-end;
+    display: inline-flex;
+    gap: 30px;
+    left: 159px;
+    position: absolute;
+    top: 150px;
+}
+
+.tandori-homepage .img {
+    height: 590px;
+    object-fit: cover;
+    position: relative;
+    width: 790px;
+}
+
+.tandori-homepage .p {
+    color: var(--paletteblack);
+    font-family: "Geliat-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 1019px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 428px;
+    width: 367px;
+}
+
+.tandori-homepage .CTA {
+    height: 84px;
+    left: 1019px;
+    position: absolute;
+    top: 569px;
+    width: 240px;
+}
+
+.tandori-homepage .overlap-3 {
+    height: 84px;
+    position: relative;
+    width: 238px;
+}
+
+.tandori-homepage .rectangle {
+    background-color: var(--paletteaccentsand);
+    height: 76px;
+    left: 8px;
+    position: absolute;
+    top: 8px;
+    width: 230px;
+}
+
+.tandori-homepage .rectangle-2 {
+    background-color: var(--palettemaintandori);
+    height: 76px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 230px;
+}
+
+.tandori-homepage .text-wrapper-3 {
+    color: var(--palettemainwhite);
+    font-family: "Geliat-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 65px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+    white-space: nowrap;
+}
+
+.tandori-homepage .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 1019px;
+    position: absolute;
+    top: 351px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@media (max-width: 1350px) {
+   
+    .overlap-group{
+        top:2100px !important;
+    }
+    
+    .CTA{
+        top: 1050px !important;
+        left: 350px !important;
+    }
+    .p{
+        top: 900px !important;
+        left: 350px !important;
+    }
+    .frame-2{
+        top: 800px !important;
+        left: 350px !important;
+        
+    }
+}
+@media  screen and (min-width: 375px) and (max-width:1220px) {
+
+    .img{
+      left: 215px;
+    }
+    .overlap-group{
+        top:2100px !important;
+    }
+    
+    .CTA{
+        top: 1050px !important;
+        left: 590px !important;
+    }
+    .p{
+        top: 900px !important;
+        left: 590px !important;
+    }
+    .frame-2{
+        top: 800px !important;
+        left: 590px !important;
+        
+    }    
+  
+}
+@media  screen and (min-width: 375px) and (max-width:768px) {
+
+    .img{
+        height: 90vh !important;
+       
+    }
+    .h-1{
+        font-weight:100 !important;
+    }
+
+}
+@media (max-width: 376px) {
+    .img{
+        left:400px !important;
+    }
+}    

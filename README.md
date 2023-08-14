@@ -1,15 +1,8 @@
-# Tandori-WebSite
-----TAMAMEN TAMAMLANMADI----
+# React + Vite
 
-![örnek](https://github.com/Mufkan/Tandori-WebSite/assets/133501740/5e539602-8d70-4c4e-b5ae-3e5968098cd3)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-TASARIMCI: Lorenzo
-
-Web Sayfası: https://www.lorenzoperniciaro.com/
-
-İnstagram Adresi:https://www.instagram.com/ui.lorenzo
-
-
-
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
